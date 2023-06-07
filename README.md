@@ -12,7 +12,7 @@ Before you begin creating an application with this `devfile` code sample, it's h
 3. The `devfile.yaml` [`kubernetes-deploy` component](https://github.com/devfile-samples/devfile-sample-python-basic/blob/main/devfile.yaml#L31-L44) points to a `deploy.yaml` file that contains instructions for deploying the built container image.
 4. The `devfile.yaml` [`deploy` command](https://github.com/devfile-samples/devfile-sample-python-basic/blob/main/devfile.yaml#L46-L59) completes the [outerloop](https://devfile.io/docs/2.2.0/innerloop-vs-outerloop) deployment phase by pointing to the `image-build` and `kubernetes-deploy` components to create your application.
 
-### Additional resources for info
+### Additional resources
 * For more information about Python, see [Python](https://www.python.org/).
 * For more information about devfiles, see [Devfile.io](https://devfile.io/).
 * For more information about Dockerfiles, see [Dockerfile reference](https://docs.docker.com/engine/reference/builder/).
